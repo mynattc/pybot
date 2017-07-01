@@ -44,8 +44,8 @@ class EchoBot(PyBot):
         #                           #
         #############################
 
-        # Checks the list of replies every 30 minutes.
-        self.config['reply_interval'] = 30 * 60
+        # Checks the list of replies every 15 minutes.
+        self.config['reply_interval'] = 15 * 60
 
         #############################
         #                           #
